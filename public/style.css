@@ -1,0 +1,62 @@
+#welcome-section {
+  height: 100vh;
+}
+
+#navbar {
+  background-color: lightgrey;
+  z-index: 2;
+  position: fixed;
+  width: 100%;
+  display: none;
+  padding-top: 30px;
+}
+
+#projects {
+  background-color: #181818;
+  border-radius: 15px;
+  color: white;
+}
+
+.project-tile {
+  border-radius: 15px;
+}
+
+#document {
+  padding:  0px 50px
+}
+
+#hamburger {
+  background-color: lightgrey;
+  z-index: 2;
+  position: fixed;
+  width: 100%;
+  padding: 5px 0px 5px 15px;
+}
+
+#back {
+  display: none;
+  cursor: pointer;
+}
+
+#menu {
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  #document {
+    padding:  0px 100px
+  }
+  
+  #hamburger {
+    display: none;
+  }
+  
+  #navbar {
+    display: block;
+    padding: 0px;
+  }
+  
+  #projects {
+    background-color: #181817;
+  }
+}
