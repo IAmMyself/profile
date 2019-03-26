@@ -42,6 +42,15 @@
   cursor: pointer;
 }
 
+#me {
+  border: 5px solid white;
+  position: absolute;
+  border-radius: 50%;
+  width: 16%;
+  right: 42%;
+  top: 85px;
+}
+
 @media screen and (min-width: 768px) {
   #document {
     padding:  0px 100px
